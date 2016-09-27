@@ -5,5 +5,5 @@
 ~~~
 brew tap tinytacoteam/formulae
 brew install dotties
-dotties install afaur/dotties
+dotties install baudday/dotties
 ~~~
