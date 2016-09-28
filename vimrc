@@ -26,6 +26,10 @@ set tabstop=2
 set shiftwidth=2
 set shiftround
 set expandtab
+set autoindent
+set smartindent
+set tw=79
+set fo-=l
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
@@ -83,3 +87,7 @@ set mouse=a
 
 " Enable the list of buffers
 let g:airline#extensions#tabline#enabled = 1
+
+nnoremap <C-W> :w<bar>bd<CR>
+nnoremap <C-J> :m+<CR>
+nnoremap <C-K> :m-2<CR>

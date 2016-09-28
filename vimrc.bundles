@@ -1,5 +1,6 @@
 " Theme
 Plug 'nanotech/jellybeans.vim'
+Plug 'jacoborus/tender.vim'
 
 " Utility
 Plug 'bling/vim-airline'
@@ -16,6 +17,8 @@ Plug 'elixir-lang/vim-elixir'
 Plug 'rust-lang/rust.vim'
 Plug 'derekwyatt/vim-scala'
 Plug 'kchmck/vim-coffee-script'
+Plug 'StanAngeloff/php.vim'
+Plug 'mattn/emmet-vim'
 
 " From dotfiles
 Plug 'tpope/vim-fugitive'
