@@ -2,8 +2,8 @@ ZSH_THEME="candy"
 export PATH="$HOME/.bin:$PATH"
 export ZSH=~/.oh-my-zsh
 
-alias ls="exa"
 alias cls="clear"
+alias rake="noglob rake"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
