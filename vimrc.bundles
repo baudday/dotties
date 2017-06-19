@@ -19,6 +19,7 @@ Plug 'derekwyatt/vim-scala'
 Plug 'kchmck/vim-coffee-script'
 Plug 'StanAngeloff/php.vim'
 Plug 'mattn/emmet-vim'
+Plug 'leafgarland/typescript-vim'
 
 " From dotfiles
 Plug 'tpope/vim-fugitive'
