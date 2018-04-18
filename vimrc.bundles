@@ -10,6 +10,7 @@ Plug 'ihacklog/HiCursorWords'
 Plug 'tpope/vim-sleuth'
 Plug 'pmsorhaindo/syntastic-local-eslint.vim'
 Plug 'moll/vim-node'
+Plug 'tpope/vim-dispatch'
 
 " Syntax Highlighting
 Plug 'vim-scripts/applescript.vim'
