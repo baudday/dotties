@@ -20,6 +20,7 @@ Plug 'kchmck/vim-coffee-script'
 Plug 'StanAngeloff/php.vim'
 Plug 'mattn/emmet-vim'
 Plug 'leafgarland/typescript-vim'
+Plug 'hashivim/vim-terraform'
 
 " From dotfiles
 Plug 'tpope/vim-fugitive'
