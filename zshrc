@@ -64,6 +64,9 @@ precmd() {
 
   # Main Prompt
   export MP="${CB}${DT}${RS}${GP}${NL}${CW}${FP}${NL}${CP}"
+
+  # Instantiate GPG environment var
+  export GPG_TTY=$(tty)
 }
 
 # If we are on our own computer show [LOCAL]
@@ -88,4 +91,7 @@ export PKG_CONFIG_PATH="/usr/local/lib;/usr/local/lib/pkgconfig"
 if [ -x /usr/libexec/path_helper ]; then
   eval `/usr/libexec/path_helper -s`
 fi
+
+# .NET Stuff
+alias ef="dotnet ef"
 
