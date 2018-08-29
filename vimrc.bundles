@@ -1,6 +1,7 @@
 " Theme
 Plug 'nanotech/jellybeans.vim'
 Plug 'jacoborus/tender.vim'
+Plug 'kaicataldo/material.vim'
 
 " Utility
 Plug 'bling/vim-airline'

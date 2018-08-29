@@ -4,6 +4,8 @@ export ZSH=~/.oh-my-zsh
 
 alias cls="clear"
 alias rake="noglob rake"
+alias tf="terraform"
+alias ef="dotnet ef"
 
 setnvm() {
  if [ "$PWD" != "$MYOLDPWD" ]; then
@@ -91,7 +93,4 @@ export PKG_CONFIG_PATH="/usr/local/lib;/usr/local/lib/pkgconfig"
 if [ -x /usr/libexec/path_helper ]; then
   eval `/usr/libexec/path_helper -s`
 fi
-
-# .NET Stuff
-alias ef="dotnet ef"
 
